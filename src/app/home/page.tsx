@@ -1,9 +1,12 @@
+import clsx from "clsx";
+
+//Components Imports
+import Header from "@/components/header/HeaderV1";
+
 const PageHome = () => {
   return (
-    <section>
-      <div>
-        <h1>Home Page</h1>
-      </div>
+    <section className={clsx("w-full h-full")}>
+      <Header />
     </section>
   );
 };
